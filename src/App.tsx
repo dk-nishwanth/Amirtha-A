@@ -944,7 +944,7 @@ const Footer = () => (
 );
 
 export default function App() {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const { scrollYProgress } = useScroll();
 
   useEffect(() => {
